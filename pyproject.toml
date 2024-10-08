@@ -7,3 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "pandas>=2.2.3",
 ]
+
+
+[tool.taskipy.tasks]
+format = "isort . && blue ."
